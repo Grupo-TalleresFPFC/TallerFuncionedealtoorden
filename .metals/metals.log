@@ -2708,3 +2708,32 @@ INFORMACIÓN: Unsupported notification method: $/setTrace
 2026.03.16 12:58:20 INFO  shutting down Metals
 2026.03.16 12:58:20 INFO  Shut down connection with build server.
 2026.03.16 12:58:20 INFO  Exiting server
+2026.03.16 12:58:33 INFO  Started: Metals version 1.6.6 in folders 'C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden' for client Visual Studio Code 1.111.0.
+2026.03.16 12:58:33 INFO  Memory monitor started
+2026.03.16 12:58:34 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.16 12:58:34 INFO  no build target found for C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\test\scala\pruebas.sc. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 12:58:37 INFO  no build target found for C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\test\scala\pruebas.sc. Using presentation compiler with project's scala-library version: 3.3.7
+2026.03.16 12:58:37 INFO  Attempting to connect to the build server...
+2026.03.16 12:58:37 INFO  Running BSP server List(C:\Users\marce\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.scala-build\ide-envs.json, C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden)
+2026.03.16 12:58:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.metals\bsp.trace.json or C:\Users\marce\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.03.16 12:58:40 INFO  time: Connected to build server in 2.47s
+2026.03.16 12:58:40 INFO  Connected to Build server: scala-cli v1.12.4
+2026.03.16 12:58:40 INFO  time: Imported build in 0.23s
+2026.03.16 12:58:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.16 12:58:48 INFO  time: indexed workspace in 8.75s
+2026.03.16 13:02:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.metals\dap-server.trace.json or C:\Users\marce\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.03.16 13:02:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\marce\OneDrive\Desktop\TallerFuncionesAltoOrden\.metals\dap-client.trace.json or C:\Users\marce\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.03.16 13:02:21 INFO  Starting debug proxy for [test.scala.pruebas_sc]
+2026.03.16 13:02:22 WARN  Cannot fetch expression compiler of Scala 3.8.2:  Error downloading ch.epfl.scala:scala-expression-compiler_3.8.2:4.2.8
+  not found: C:\Users\marce\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.8.2\4.2.8\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.8.2/4.2.8/scala-expression-compiler_3.8.2-4.2.8.pom
+2026.03.16 13:02:22 INFO  Loaded expression compiler in 746 milliseconds
+2026.03.16 13:02:22 INFO  Loaded step filter in 0 milliseconds
+2026.03.16 13:02:26 INFO  Loaded all sources and classes in 4 seconds
+2026.03.16 13:02:27 INFO  Initialized Scala 3 decoder in 1 second
+2026.03.16 13:02:27 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56613 .
+2026.03.16 13:02:27 INFO  Attaching to debuggee VM succeeded.
+2026.03.16 13:02:28 INFO  Canceling debug proxy for [test.scala.pruebas_sc]
+2026.03.16 13:02:27 INFO  Closing debug server tcp://0.0.0.0:56611
+mar. 16, 2026 1:04:09 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
