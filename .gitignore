@@ -1,4 +1,5 @@
 .metals/
+.bloop/
 .bsp/
 .scala-build/
 target/
